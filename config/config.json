@@ -1,0 +1,37 @@
+{
+  "development": {
+    "username": "success-agency_owner",
+    "password": "NPwaUJsHbI21",
+    "database": "database_test",
+    "host": "ep-square-wind-a52xy0dk.us-east-2.aws.neon.tech",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "test": {
+    "username": "success-agency_owner",
+    "password": "NPwaUJsHbI21",
+    "database": "database_test",
+    "host": "ep-square-wind-a52xy0dk.us-east-2.aws.neon.tech",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgresql"
+  }
+
+}
+

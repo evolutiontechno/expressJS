@@ -1,0 +1,5 @@
+const path = require("path");
+
+module.exports = {
+  modelsPath: path.resolve("src", "models"),  // Path to your models
+};
